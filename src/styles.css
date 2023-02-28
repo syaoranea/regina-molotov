@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.inner-divider {
+    height: 100px;
+    width: 100%;
+}
+
+.inner-divider-half{
+    height: 50px;
+    width: 100%;
+}
+
+p{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: normal;
+    font-weight: 400;
+    color: #5f5f5f;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.the-line {
+    position: relative;
+    width: 1px;
+    height: 80px;
+    background: #5f5f5f;
+    margin: 1px auto;
+}
