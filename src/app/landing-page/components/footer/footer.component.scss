@@ -1,0 +1,29 @@
+/* ---------------------footer------------------ */
+
+#footer {
+    padding: 0;
+    text-align: center;
+
+    .footer-credits-copyright {
+        font-size: 9px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.05em;
+        z-index: 100;
+    }
+
+    .footer-credits-copyright-wrapper {
+        height: 40px;
+    }
+
+    .hide-me {
+        display: none;
+        visibility: hidden;
+    }
+
+    img {
+        vertical-align: middle;
+        max-width: 100%;
+    }
+}

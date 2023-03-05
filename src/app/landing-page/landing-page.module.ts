@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { VideosComponent } from './components/videos/videos.component';
 import { SharedModule } from '../shared/shared.module';
+import { RedesSociaisComponent } from './components/redes-sociais/redes-sociais.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -14,7 +16,9 @@ import { SharedModule } from '../shared/shared.module';
     LandingPageComponent,
     AboutComponent,
     GaleriaComponent,
-    VideosComponent
+    VideosComponent,
+    RedesSociaisComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
