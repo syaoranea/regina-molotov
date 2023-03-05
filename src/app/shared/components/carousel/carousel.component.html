@@ -1,0 +1,12 @@
+<div class="carousel-container">
+    <div class="gallery-wrapper">
+        <div class="gallery" >
+            <img *ngFor="let slide of images; let i = index"  [src]="slide.src" [alt]="slide.alt"  class="item current-item" >
+        </div>
+    </div>
+    
+    <div class="buttons">
+        <i (click)="onPrevClick()" class="material-icons slick-next">chevron_right</i>
+        <i (click)="onNextClick()" class="material-icons slick-prev">chevron_left</i>
+    </div>
+</div>

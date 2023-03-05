@@ -4,6 +4,8 @@ import { LandingPageComponent } from './views/landing-page.component';
 import { AboutComponent } from './components/about/about.component';
 import { RouterModule } from '@angular/router';
 import { GaleriaComponent } from './components/galeria/galeria.component';
+import { VideosComponent } from './components/videos/videos.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -11,11 +13,13 @@ import { GaleriaComponent } from './components/galeria/galeria.component';
   declarations: [
     LandingPageComponent,
     AboutComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    VideosComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
+    SharedModule
   ]
 })
 export class LandingPageModule { }
