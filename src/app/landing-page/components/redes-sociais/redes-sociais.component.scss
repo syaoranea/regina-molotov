@@ -6,7 +6,7 @@
 
     .row-rede-socias {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
 
         .three-step-method-block {
             .three-step-method-heading {
@@ -157,4 +157,14 @@
 
         }
     }
+}
+
+@media screen and (max-width: 1150px) {
+    .row-rede-socias {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        margin: 0 auto;
+    }
+
 }
